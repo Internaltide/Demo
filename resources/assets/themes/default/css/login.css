@@ -1,0 +1,129 @@
+/** Style for WhatsoftCEDH login page **/
+
+/*** Global Setup ***/
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-container{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Default Flexbox wrap is to wrap */
+.nowrap{
+    flex-wrap: nowrap;
+}
+/*** Global Setup ***/
+
+/*** Fix Font Awesome Icon Width ***/
+.fa-lock, .fa-user-alt{
+    width: 17px;
+}
+
+/*** Main Code ***/
+.login-header{
+    height: 97px;
+    background: rgb(247, 246, 246);
+    border-bottom: 2px solid rgb(224, 223, 223);
+    background-image: url('../images/login-header-bg.png');
+    background-position: left bottom;
+}
+
+.login-footer {
+    height: 190px;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(247, 246, 246);
+    border-top: 2px solid rgb(224, 223, 223);
+    background-image: url('../images/login-footer-bg.png');
+}
+
+.login-main {
+    height: 341px;
+    background-image: url('../images/login-background.jpg');
+    background-repeat: repeat-x;
+    background-size: 130% 111%;
+    justify-content: center;
+}
+
+.logo{
+    flex-basis: 105px;
+    align-self: stretch;
+    margin-left: 33%;
+}
+
+.login-form, .form-code,.form-login-btn{
+    width: 100%;
+}
+
+.input-group{
+    /*padding-left: 1%;*/
+    margin-bottom: 18px;
+    width: 100%;
+    height: 36px;
+    font-size: 12px;
+}
+
+.input-group label{
+    padding: 11px 0px 10px 6px;
+    background: rgb(248, 248, 248);
+    border: solid 1px rgb(190, 189, 189);
+    border-radius: 3px 0px 0px 3px;
+    border-right: 0px;
+    margin-left: 35%;
+    height: 34px;
+    width: 17%;
+    color: gray;
+}
+
+.input-group input{
+    border: solid 1px rgb(190, 189, 189);
+    border-radius: 0px 3px 3px 0px;
+    height: 32px;
+    width: 30%;
+}
+
+.copyright{
+    color: rgb(151, 149, 149);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.btn-group{
+    margin-top: 18px;
+    margin-left: 35%;
+}
+
+.btn-group button{
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 26.3%;
+    height: 45px;
+}
+
+.btn-login{
+    font-weight:  1000;
+    color: white;
+    background: rgb(153, 228, 92);
+}
+.btn-login:hover{
+    background: rgb(84, 187, 0);
+}
+
+.btn-forget{
+    font-weight:  1000;
+    color: white;
+    background: rgb(245, 140, 71);
+}
+.btn-forget:hover{
+    background: rgb(238, 95, 0);
+}
